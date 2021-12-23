@@ -32,10 +32,6 @@
               -model robot
               -param robot_description"/>
 
-  <!-- Spawn AR tag -->
-  <include file="$(find ar_tag_tutorial)/launch/spawn_ar_tracking.launch"/>
-
-
   <!-- load multiple values stored in .yaml file into global parameters -->
   <!-- parameters store motor controller configurations -->
   <rosparam command="load"
